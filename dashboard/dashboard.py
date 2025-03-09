@@ -2,8 +2,13 @@ import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
+import os
 
-hr_df = pd.read_csv("main_data.csv")
+# Dapatkan path absolut ke file all_data.csv
+file_path = os.path.join(os.path.dirname(__file__), "main_data.csv")
+
+# Baca file CSV
+hr_df = pd.read_csv(file_path)
 
 hr_df['dteday'] = pd.to_datetime(hr_df['dteday'])
 
