@@ -1,5 +1,5 @@
 # Bike Rentals - Final Project Data Analytics
-This is the final project for Dicoding's "Learn Data Analysis with Python" course, where I analyze and create a dashboard based on the bike-sharing dataset. In the provided notebook, I walk through my approach, starting from Data Wrangling and Exploratory Data Analysis (EDA) to Data Visualization. Additionally, I developed an interactive dashboard using Streamlit.
+This is the final project for Dicoding "Learn Data Analysis with Python" course, where I analyze and create a dashboard based on the bike-sharing dataset. In the provided notebook, I walk through my approach, starting from Data Wrangling and Exploratory Data Analysis (EDA) to Data Visualization. Additionally, I developed an interactive dashboard using Streamlit.
 
 # Getting Started
 ## notebook.ipynb
