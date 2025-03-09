@@ -11,7 +11,7 @@ This is the final project for Dicoding's "Learn Data Analysis with Python" cours
 - Lastly, run the code cells.
 
 ## dashboard/dashboard.py
-1. Download this project.
-2. Install the Streamlit in your terminal or command prompt using pip install streamlit. Install another libraries like pandas, numpy, scipy, matplotlib, and seaborn if you haven't.
-3. Please note, don't move the csv file because it acts a data source. keep it in one folder as dashboard.py
-4. Open your VSCode and run the file by clicking the terminal and write it streamlit run dashboard.py
+- Download this project.
+- Install the Streamlit in your terminal or command prompt using pip install streamlit. Install another libraries like pandas, numpy, scipy, matplotlib, and seaborn if you haven't.
+- Please note, don't move the csv file because it acts a data source. keep it in one folder as dashboard.py
+- Open your VSCode and run the file by clicking the terminal and write it streamlit run dashboard.py
