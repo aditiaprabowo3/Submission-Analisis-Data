@@ -158,7 +158,5 @@ ax.set_ylabel("Rata-rata Penyewaan", fontsize=12)
 ax.grid(True, linestyle='--', alpha=0.6)
 legend_labels = [plt.Rectangle((0, 0), 1, 1, color=color) for color in palette_colors.values()]
 ax.legend(legend_labels, palette_colors.keys(), title="Keterangan", loc="upper right")
-st.pyplot(fig)
 
-st.sidebar.header("Tentang Dashboard")
-st.sidebar.text("Dashboard ini menampilkan pola penyewaan sepeda berdasarkan rentang waktu yang dipilih.")
+st.pyplot(fig)
