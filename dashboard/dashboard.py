@@ -160,3 +160,12 @@ legend_labels = [plt.Rectangle((0, 0), 1, 1, color=color) for color in palette_c
 ax.legend(legend_labels, palette_colors.keys(), title="Keterangan", loc="upper right")
 
 st.pyplot(fig)
+
+st.markdown(
+    """
+    <div style="text-align: center; margin-top: 50px;">
+        <p>© 2025 CYCLO. All rights reserved.</p>
+    </div>
+    """,
+    unsafe_allow_html=True
+)
